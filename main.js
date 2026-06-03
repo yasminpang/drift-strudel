@@ -13,7 +13,7 @@ await samples({
   arp: ['https://raw.githubusercontent.com/yasminpang/strudel-samples/main/STCR2_HRH_150_Synth_Arp_Control_Amin.wav']
 })
 
-const lpfFilter = slider(1257, 1000, 8000) //slide as song progresses to chorus, start at ~1000 
+const lpfFilter = slider(1257, 1000, 8000) //slide as song progresses to chorus, start at ~1000
 
 setcpm(150/4)
 
